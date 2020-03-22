@@ -110,15 +110,15 @@ function drawBricks() {
 }
 //Dibujar Score
 function drawScore() {
-    ctx.font = "16px Arial";
-    ctx.fillStyle = "#0095DD";
+    ctx.font = "17px Verdana";
+    ctx.fillStyle = "#FFFFFF";
     ctx.fillText("Score: "+score, 8, 20);
 }
 //Dibujar vidas
 function drawLives() {
-    ctx.font = "16px Arial";
-    ctx.fillStyle = "#0095DD";
-    ctx.fillText("Lives: "+lives, canvas.width-65, 20);
+    ctx.font = "17px Verdana";
+    ctx.fillStyle = "#FFFFFF";
+    ctx.fillText("Lives: "+lives, canvas.width-75, 20);
 }
 //Dibujar elementos
 function draw() {
