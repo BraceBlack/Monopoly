@@ -8,16 +8,6 @@
 </head>
 <body>
 	<script src="js/ppt.js"></script>
-
-	<nav class="menu">
-		<ul> 
-			<li><a  href="index.html">Inicio</a></li>
-			<li><a href="piedra.html">Piedra, Papel o Tijera</a></li>
-			<li><a href="gatooo.html">Gato</a></li>
-		</ul>
-	</nav>
-
-	<header><h1>Juego de Piedra, Papel o Tijera</h1></header>
 	<section>
 		<div class="instrucciones"> 
 			<h2>Da click sobre la Piedra, Papel o Tijera para comenzar a jugar</h2>
@@ -33,13 +23,13 @@
 		<center>
 			<div class="elementos">
 				<div class="choice">
-					<img src="img/piedra.jpg" alt="" height="100px" width="100px" onclick="jugar(0);"> 
+					<img src="img/piedra.jpg" alt="" height="50px" width="50px" onclick="jugar(0);"> 
 				</div>
 				<div class="choice">
-					<img src="img/papel.jpg" alt=""  height="100px" width="100px" onclick="jugar(1);"> 
+					<img src="img/papel.jpg" alt=""  height="50px" width="50px" onclick="jugar(1);"> 
 				</div>
 				<div class="choice">
-					<img src="img/tijera.jpg" alt=""  height="100px" width="100px" onclick="jugar(2);"> 
+					<img src="img/tijera.jpg" alt=""  height="50px" width="50px" onclick="jugar(2);"> 
 				</div>
 			</div>
 		</center>
@@ -48,12 +38,9 @@
 	</section>
 	<section> 
 		<div class="resultsss">
-			<ul>
-				<li><h1 id="jugador" ></h1></li>
-				<li><h1 id="resultado" style="margin:15%" style="margin-left:5%" > </h1></li>
-				<li><h1 id="enemigo" style="margin-left:5%"> </h1></li>
-				
-			</ul>
+			<h1 id="jugador" ></h1>
+			<h1 id="resultado"></h1>
+			<h1 id="enemigo" > </h1>
 		</div>
 	</section>
 
