@@ -23,21 +23,19 @@ function jugar(obj) {
 	document.getElementById('resultado').innerHTML= jugada[obj][enemigo]+("!!");
 
 	
-
+//Ganar o perder
 	if (jugada[obj][enemigo]=="GANASTE"){
 		document.getElementById('user-score').innerHTML++;
-		if (document.getElementById('user-score').innerHTML==5) {
+		if (document.getElementById('user-score').innerHTML==1) {
 			alert("Ganaste, regresa al Monopoly, porfavor")
 		}
 		
 	}
 	if (jugada[obj][enemigo]=="PERDISTE") {
 		document.getElementById('comp-score').innerHTML++;
-		if (document.getElementById('user-score').innerHTML<5 && document.getElementById('comp-score').innerHTML==5) {
+		if (document.getElementById('comp-score').innerHTML==1) {
 			alert("Perdiste, regresa al Monopoly, porfavor")
 		}
 	}
-
-
 
 }
